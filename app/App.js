@@ -10,16 +10,10 @@
 import React, { Component } from 'react';
 import LoginPage            from './routes/login/index'
 import colors               from './config/styles'
-// import { updateFocus }      from 'react-navigation-is-focused-hoc'
-// import { LoginManager }     from 'react-native-fbsdk'
-import {
-    AppRegistry,
-    StyleSheet,
-    Text,
-    View,
-    AsyncStorage,
-    TouchableOpacity
-} from 'react-native';
+import Landing              from './routes/landing/index'
+import { connect }          from 'react-redux'
+import {  View } from 'react-native';
+
 import {
     TabNavigator,
     TabBarBottom
@@ -34,7 +28,8 @@ console.ignoredYellowBox = [
 
 // Builds App tab navigator
 const AppNavigator = TabNavigator({
-    Index   : { screen: LoginPage}
+    Index   : { screen: LoginPage},
+    Landing   : { screen: Landing},
 
 }, {
     tabBarPosition      : 'bottom',
@@ -54,30 +49,51 @@ const AppNavigator = TabNavigator({
 
 /*
  * ManagerPage:
- *   Class responsible for handling the Navigation scheme
+ *   Class responsible for handling the Navigation and Login switcher schema
  * */
-export default class ManagerPage extends Component {
+class ManagerPage extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    // login page rendered when not logged
+    renderLogin(){
+        return(
+            <LoginPage/>
+        )
+    }
+
+    // after logged tab navigation is rendered
+    renderNavigation(){
+        return(
+            <AppNavigator
+                ref         = {nav => { this.navigator = nav; }}
+            />
+        )
+    }
+
 
     render(){
-            return(
-                <LoginPage/>
-            )
+        return(
+            <View style={{display: "flex", flex: 1}}>
+                {!this.props.state.login.isLogging && this.renderLogin()}
+                {this.props.state.login.isLogging  && this.renderNavigation()}
+            </View>
 
-
-        // return(
-        //     <AppNavigator
-        //         ref         = {nav => { this.navigator = nav; }}
-        //         screenProps = {{userId: this.state.userId,
-        //             userToken: this.state.userToken,
-        //             resetTest: false,
-        //             logOut : this.logOut.bind(this)}}
-        //         onNavigationStateChange={(prevState, currentState) => {
-        //             updateFocus(currentState)
-        //         }}
-        //     />
-        // )
-
+        )
     }
 
 }
 
+
+
+function mapStateToProps (state) {
+    return {
+        state
+    }
+}
+
+
+export default connect(
+    mapStateToProps
+)(ManagerPage)
