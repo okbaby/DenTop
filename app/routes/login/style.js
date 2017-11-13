@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
     footer: {
         alignItems  : 'center',
         display     : 'flex',
-        width       : '100%'
+        width       : '100%',
+        marginBottom: 10
     },
     header: {
         justifyContent: 'center',
@@ -33,6 +34,10 @@ const styles = StyleSheet.create({
     },
     text: {
         textAlign: 'center'
+    },
+    faceButton: {
+        height: 20,
+        width : settings.dimensions.deviceWidth * 0.8 - 15
     },
     button: {
         height: 50,

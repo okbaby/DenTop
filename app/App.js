@@ -28,12 +28,11 @@ console.ignoredYellowBox = [
 
 // Builds App tab navigator
 const AppNavigator = TabNavigator({
-    Index   : { screen: LoginPage},
     Landing   : { screen: Landing},
 
 }, {
     tabBarPosition      : 'bottom',
-    initialRouteName    : 'Index',
+    initialRouteName    : 'Landing',
     tabBarComponent     : TabBarBottom,
     lazy: true,
     tabBarOptions: {

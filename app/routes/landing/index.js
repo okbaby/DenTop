@@ -1,48 +1,84 @@
-import React            from 'react'
-import { connect }      from 'react-redux'
-import { fetchData }    from '../../redux/actions/dataActions'
-import { logIn }        from '../../redux/actions/loginActions'
-import { TouchableHighlight, View, Text } from 'react-native'
-import {
-    container,
-    text,
-    button,
-    buttonText,
-    mainContent
-} from "./style"
+import { connect }    from 'react-redux'
+import { fetchData }  from '../../redux/actions/dataActions'
+import { logIn, logInFace,logOut }  from '../../redux/actions/loginActions'
+import { TouchableHighlight, View, Text, Image } from 'react-native'
+import style from "./style"
+import React, { Component } from 'react';
+import settings from '../../config/settings'
+import colors   from '../../config/styles'
+import images   from '../../config/images'
+import {SimpleButton} from '../../components/buttons/simpleButton/index'
+import FaceButton from '../../components/buttons/faceButton/index'
+import {FBLogin, FBLoginManager } from 'react-native-facebook-login';
 
 
-const Landing = (props) => {
-    console.log("AI o props", props)
-    return (
-        <View style={container}>
-            <Text style={text}>BIRLLLLLLL</Text>
-            <TouchableHighlight style={button} onPress={() => props.logIn()}>
-                <Text style={buttonText}>Load Data</Text>
-            </TouchableHighlight>
-            <View style={mainContent}>
-                {props.state.login.isLogging && <Text>
-                    OI
-                </Text>}
 
-                {/*{*/}
-                {/*props.appData.isFetching && <Text>Loading</Text>*/}
-                {/*}*/}
-                {/*{*/}
-                {/*props.appData.data.length ? (*/}
-                {/*props.appData.data.map((person, i) => {*/}
-                {/*return <View key={i} >*/}
-                {/*<Text>Name: {person.name}</Text>*/}
-                {/*<Text>Age: {person.age}</Text>*/}
-                {/*</View>*/}
-                {/*})*/}
-                {/*) : null*/}
-                {/*}*/}
+/*
+ * Landing:
+ *   Container with login features
+ * */
+class Landing extends Component {
+    constructor(props) {
+        super(props);
+        this.props.logInFace = this.props.logInFace.bind(this)
+
+        console.log("AII a propx", props)
+    }
+
+
+
+    render(){
+        return(
+            <View  style = {style.container}>
+                <Image
+                    style       = {style.backgroundImage}
+                    source      = {images.backgrounds.teeth}/>
+
+                <View style={style.header}>
+                    {this.props.state.login.isLogging && <Text>
+                        Olá, {this.props.state.login.faceInfo.name ||
+                    this.props.state.login.faceInfo.userId}
+                    </Text>}
+                </View>
+
+
+                <View style={style.footer}>
+                    <FBLogin
+                        buttonView={
+                            <FaceButton
+                                style       = {style.faceButton}
+                                logInText   = {settings.messages.faceLogIn}
+                                logOutText  = {settings.messages.faceLogOut}
+                                textColor   = 'white'
+                            />
+                        }
+                        ref             = {(fbLogin) => { this.fbLogin = fbLogin }}
+                        permissions     = {["email","user_friends"]}
+                        loginBehavior   = {FBLoginManager.LoginBehaviors.Native}
+                        onLogin={(data) => {
+                            this.props.logInFace(data)
+                        }}
+                        onLogout={(data) => {
+                            this.props.logOut()
+                        }}
+                        onLoginFound={(data) => {
+                            // this.props.logIn()
+                        }}
+                        onLoginNotFound={function(){
+                        }}
+                        onError={function(data){
+                        }}
+                        onCancel={function(){
+                        }}
+                        onPermissionsMissing={function(data){
+                        }}
+                    />
+                </View>
             </View>
-        </View>
-    )
-}
+        )
+    }
 
+}
 
 
 function mapStateToProps (state) {
@@ -55,6 +91,8 @@ function mapDispatchToProps (dispatch) {
     return {
         fetchData: () => dispatch(fetchData()),
         logIn    : () => dispatch(logIn()),
+        logOut    : () => dispatch(logOut()),
+        logInFace    : (data) => { dispatch(logInFace(data))}
     }
 }
 
