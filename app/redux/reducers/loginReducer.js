@@ -1,8 +1,9 @@
-import { LOG_IN, LOG_IN_FACE, LOG_OUT } from '../settings'
+import { LOG_IN, LOG_IN_FACE, LOG_OUT, LOAD_LOG_INFO, UPDATE_LOADING_STATUS } from '../settings'
 
 const initialState = {
-    isLogging: false,
-    faceInfo : {}
+    isLogging : false,
+    faceInfo  : {},
+    loading   : true
 }
 
 export default function loginReducer (state = initialState, action) {
@@ -21,6 +22,15 @@ export default function loginReducer (state = initialState, action) {
         case LOG_OUT:
             return {
                 ...initialState
+            }
+        case LOAD_LOG_INFO:
+            return {
+                ...action.info
+            }
+        case UPDATE_LOADING_STATUS:
+            return {
+                ...state,
+                loading: false
             }
         default:
             return state

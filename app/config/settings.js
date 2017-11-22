@@ -38,7 +38,7 @@ const settings = {
         registerButton              : 'Registrar',
         registerSuccess             : 'Conta Registrada com Sucesso! Aguarde o email de confirmação.',
         registerError               : 'Ocorreu algum erro ao registrar.',
-        welcomeMessage              : 'Seja DenTop.',
+        welcomeMessage              : 'Den Top',
     },
 
     dimensions: {

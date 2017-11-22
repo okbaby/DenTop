@@ -2,6 +2,8 @@ import { FETCHING_DATA, FETCHING_DATA_SUCCESS, FETCHING_DATA_FAILURE } from '../
 
 const initialState = {
     data: [],
+    mapData: [],
+    latlong: {},
     dataFetched: false,
     isFetching: false,
     error: false
@@ -18,8 +20,9 @@ export default function dataReducer (state = initialState, action) {
         case FETCHING_DATA_SUCCESS:
             return {
                 ...state,
-                isFetching: false,
-                data: action.data
+                isFetching: true,
+                mapData: action.data.maps,
+                latlong: action.data.lats,
             }
         case FETCHING_DATA_FAILURE:
             return {

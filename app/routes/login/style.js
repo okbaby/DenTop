@@ -10,6 +10,12 @@ const styles = StyleSheet.create({
         justifyContent  : 'space-between',
         backgroundColor : colors.loginBack
     },
+    containerLoading: {
+        display         : 'flex',
+        flex            : 1,
+        alignItems      : 'center',
+        justifyContent  : 'center'
+    },
     backgroundImage: {
         flex        : 1,
         position    : 'absolute',
@@ -27,10 +33,13 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems  : 'center',
         display     : 'flex',
-        width       : '100%'
+        width       : '100%',
+        paddingLeft : 200
     },
     headerText: {
-        color       : colors.blueFaceBook,
+        color       : '#00B8FF',
+        fontSize    : 65,
+        width       : 60
     },
     text: {
         textAlign: 'center'

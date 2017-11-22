@@ -1,5 +1,5 @@
 import { FETCHING_DATA, FETCHING_DATA_SUCCESS, FETCHING_DATA_FAILURE } from '../settings'
-import getPeople from '../../api'
+import {getMap} from '../../api'
 
 export function getData() {
     return {
@@ -21,14 +21,12 @@ export function getDataFailure() {
 }
 
 export function fetchData() {
-    return (dispatch) => {
-        dispatch(getData())
-        getPeople()
-            .then((data) => {
-                dispatch(getDataSuccess(data))
-            })
-            .catch((err) => console.log('err:', err))
-    }
+    return dispatch => new Promise((resolve, reject) => {
+        getMap().then((data) => {
+            dispatch(getDataSuccess(data))
+            resolve(data);
+        });
+    });
 }
 
 
