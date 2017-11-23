@@ -41,13 +41,17 @@ class Login extends Component {
     // check on local storage if user is logged
     loadUserInfo(){
         AsyncStorage.getItem("userInfo",  (err, result) => {
-            let logState = JSON.parse(result)
+            if(result){
+                let logState = JSON.parse(result)
 
-            // logs if already logged
-            if(logState.isLogging){
-                this.props.loadLogInfo(logState)
-                this.props.updateLoading()
+                // logs if already logged
+                if(logState && logState.isLogging){
+                    this.props.loadLogInfo(logState)
+                }
             }
+
+            this.props.updateLoading()
+
         })
     }
 
@@ -97,7 +101,8 @@ class Login extends Component {
                             this.props.logOut()
                         }}
                         onLoginFound={(data) => {
-                            this.props.logIn(data, 'face')
+                            console.log("DATA", data)
+                            // this.props.logIn(data, 'face')
                         }}
                         onLoginNotFound={function(){
                         }}
@@ -151,7 +156,7 @@ function mapStateToProps (state) {
 function mapDispatchToProps (dispatch) {
     return {
         fetchData       : () => dispatch(fetchData()),
-        logIn           : () => dispatch(logIn()),
+        logIn           : (data, type) => {dispatch(logIn(data, type))},
         loadLogInfo     : (info) => dispatch(loadLogInfo(info)),
         updateLoading   : () => dispatch(updateLoading()),
         logOut          : () => dispatch(logOut())

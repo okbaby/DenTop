@@ -11,6 +11,7 @@ import React, { Component } from 'react';
 import LoginPage            from './routes/login/index'
 import colors               from './config/styles'
 import Landing              from './routes/landing/index'
+import Profile              from './routes/profile/index'
 import { connect }          from 'react-redux'
 import {  View } from 'react-native';
 
@@ -29,6 +30,7 @@ console.ignoredYellowBox = [
 // Builds App tab navigator
 const AppNavigator = TabNavigator({
     Landing   : { screen: Landing},
+    Profile   : { screen: Profile}
 
 }, {
     tabBarPosition      : 'bottom',
@@ -41,7 +43,7 @@ const AppNavigator = TabNavigator({
             fontSize: 12,
         },
         style: {
-            backgroundColor: 'white',
+            backgroundColor: '#FDFDFF',
         }
     }
 });

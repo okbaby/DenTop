@@ -127,22 +127,18 @@ class Landing extends Component {
 
         return(
             <View  style = {style.container}>
-                <Image
-                    style       = {style.backgroundImage}
-                    source      = {images.backgrounds.tooth}
-                />
                 <View style={style.header}>
-                    {this.props.state.login.isLogging && <Text>
-                        Olá, {this.props.state.login.faceInfo.name ||
-                    this.props.state.login.faceInfo.userId}
-                    </Text>}
-                    {this.props.state.lats && <Text>
-                        OII
-                    </Text>}
+                    {
+                        this.props.state.login.isLogging &&
+                        <Text>
+                            Olá, {this.props.state.login.faceInfo.name ||
+                        this.props.state.login.faceInfo.userId}
+                        </Text>
+                    }
                 </View>
                 <View style={style.body}>
-                    <Echarts
-                        option={option} height={300} />
+                    {/*<Echarts*/}
+                        {/*option={option} height={300} />*/}
                 </View>
                 <View style={style.footer}>
 

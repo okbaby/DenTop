@@ -1,4 +1,4 @@
-import { LOG_IN, LOG_IN_FACE, LOG_OUT, LOAD_LOG_INFO, UPDATE_LOADING_STATUS } from '../settings'
+import { LOG_IN, LOG_IN_FACE, LOG_OUT, LOAD_LOG_INFO, UPDATE_LOADING_STATUS, UPDATE_AVATAR } from '../settings'
 
 const initialState = {
     isLogging : false,
@@ -31,6 +31,12 @@ export default function loginReducer (state = initialState, action) {
             return {
                 ...state,
                 loading: false
+            }
+        case UPDATE_AVATAR:
+            console.log("AUW O", action.avatar)
+            return {
+                ...state,
+                avatar: action.avatar
             }
         default:
             return state

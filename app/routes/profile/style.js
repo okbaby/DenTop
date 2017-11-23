@@ -7,10 +7,18 @@ const styles = StyleSheet.create({
         display         : 'flex',
         flex            : 1,
         alignItems      : 'center',
-        justifyContent  : 'space-between',
-        backgroundColor      : "#FDFDFD"
+        justifyContent  : 'space-between'
     },
-    body: {
+    containerLoading: {
+        display         : 'flex',
+        flex            : 1,
+        alignItems      : 'center',
+        justifyContent  : 'center'
+    },
+    backgroundImage: {
+        flex        : 1,
+        position    : 'absolute',
+        resizeMode  : 'stretch', // or 'cover',
         height      : '100%',
         width       : '100%'
     },
@@ -18,26 +26,39 @@ const styles = StyleSheet.create({
         alignItems  : 'center',
         display     : 'flex',
         width       : '100%',
-        marginBottom: 10
+        marginBottom: 2,
+        flex: 0.1
+    },
+    body: {
+        alignItems  : 'center',
+        display     : 'flex',
+        width       : '100%',
+        marginBottom: 10,
+        flex: 0.5
     },
     header: {
         justifyContent: 'center',
         alignItems  : 'center',
         display     : 'flex',
-        width       : '100%'
+        flexDirection: 'row',
+        width       : '100%',
+        backgroundColor: colors.blueGreen,
+        flex: 0.4
     },
     headerText: {
-        color       : colors.blueFaceBook,
+        color       : '#00B8FF',
+        fontSize    : 65,
+        width       : 60
     },
     text: {
         textAlign: 'center'
     },
     faceButton: {
-        height: 20,
+        height: 10,
         width : settings.dimensions.deviceWidth * 0.8 - 15
     },
     button: {
-        height: 50,
+        height: 30,
         width : '80%'
     },
     buttonText: {
@@ -46,12 +67,11 @@ const styles = StyleSheet.create({
     mainContent: {
         margin: 10,
     },
-    backgroundImage: {
-        flex        : 1,
-        position    : 'absolute',
-        resizeMode  : 'stretch', // or 'cover',
-        height      : '100%',
-        width       : '100%'
+    avatar: {
+        borderRadius: 75,
+        width: 150,
+        height: 150,
+        borderWidth: 10
     }
 })
 

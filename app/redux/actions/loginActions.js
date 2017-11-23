@@ -1,4 +1,4 @@
-import { LOG_IN, LOG_IN_FACE, LOG_OUT, LOAD_LOG_INFO, UPDATE_LOADING_STATUS } from '../settings'
+import { LOG_IN, LOG_IN_FACE, LOG_OUT, LOAD_LOG_INFO, UPDATE_LOADING_STATUS, UPDATE_AVATAR } from '../settings'
 
 export function logInNormal(id) {
     return {
@@ -32,6 +32,13 @@ export function logOut() {
 export function updateLoading() {
     return {
         type: UPDATE_LOADING_STATUS
+    }
+}
+
+export function updateAvatar(avatar) {
+    return {
+        type: UPDATE_AVATAR,
+        avatar: avatar
     }
 }
 
