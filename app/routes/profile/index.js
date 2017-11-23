@@ -138,15 +138,9 @@ class Profile extends Component {
                             ref             = {(fbLogin) => { this.fbLogin = fbLogin }}
                             permissions     = {["email","user_friends"]}
                             loginBehavior   = {FBLoginManager.LoginBehaviors.Native}
-                            onLogin={(data) => {
-                                this.props.logIn(data, 'face')
-                            }}
                             onLogout={(data) => {
                                 this.removeUserInfo()
                                 this.props.logOut()
-                            }}
-                            onLoginFound={(data) => {
-                                this.props.logIn(data, 'face')
                             }}
                             onLoginNotFound={function(){
                             }}
