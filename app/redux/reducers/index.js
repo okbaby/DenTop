@@ -1,10 +1,12 @@
-import { combineReducers } from 'redux'
-import appData             from './dataReducer'
+import { combineReducers }  from 'redux'
+import data                 from './dataReducer'
 import login                from './loginReducer'
+import map                  from './mapReducer'
 
 const rootReducer = combineReducers({
-    appData,
-    login
+    data,
+    login,
+    map
 })
 
 export default rootReducer
