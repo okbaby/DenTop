@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_253064de0ea4e2aad447c9a07360dde58239d605.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_2467092a916f2ebc2db39c65e0954e6f61427a0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-10.0.1_f56aa63bb0ed1356493c5ef470c700a7fbe469a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\DenTop\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\DenTop-react-native-vector-icons-unspecified_1820ab7fb7d964e22a059f5588a522c685b86f5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_0ee5639cab2df43aa03fb498db563b0ae96aa704.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_a6ac74e7cb246cfd1609a35c829e3d8a29eb4f9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_5c892881e1b529e1c9d6525251ac02b09e64d388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.16.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="99d79164a8f983161bdb59b1403b9e4a1127aae1">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.16.1_f1e6bd372fade89745aa434cebf9d4b8c58ac757.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.50.3_cece2ed533b9410fdd5a5370609847e02feca44c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_574c6347f2ac70ae699a083ca444b289db122f8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_94d68b9ddf5140313489f050d551d1abff059903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_36b7a9d26db8beda0733167b82c3b3b0ca2505ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_8c94d27ebe3492ce5a774dc858ca497299cb847b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_195a2e8d6be719cca0452e655a0f79bb0e55c7ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_9d0ce2e4cf8bc6105296e9e846594d4f00bb0812.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_a60cba1013d13f0181d33cda44d6604838c726a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\DenTop\react-native-image-picker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4bc7e4c88d8a58037f153bc224b47da51ae40f2f">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\DenTop-react-native-image-picker-unspecified_39700fe55a718aaeeea4c1815e29687896988bad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_453ac2e77d89e87d75074b67f60db392249061c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\DenTop\react-native-facebook-login\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e541f3efe2bc07308e1bc32ffb8143feeee8a55">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\DenTop-react-native-facebook-login-unspecified_7cef399c151b7e055fd7dc48ad16e4859564a29b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\DenTop\react-native-maps\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1cecb4d2f0030c6a3b51b3f53da8187e790051b4">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\DenTop-react-native-maps-unspecified_ff83bb692a2f6f12db997d594884c7680b048874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_ce4b2fdbdca9ba5b68d9474da85045f5aa86add9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_4ab9a97ade4d2b0402644d71156f69cda2a6b80e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_94c65f8d2242540f2b0b5f19d76cbf748786548c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_8e1cb5f4291ae2426a7befc0019fd89d77334460.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-23.4.0_daefee60c297019bba36cbb1675a642ed5f5e97e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_5db61488a697afc0be620197723cedff2c629d80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_075cb59b4d39f29db51cb1db0166d9bff9104358.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_3f808796f6e2ee8dbb4468528be4fb6fff734faa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_6aad2a170987026b610cdff4bb9755624785d59d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_7d1b6df51a649a3a0dcd04e170b94a577ae706bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_ceb297444a9c4f039d925309208592455dcb70d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_12cde374bd6038fe4604d3d42937bfb987422107.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_43a58282eb4497e8cde136c69a761c7d4309e60f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\luqui\Git\DenTop\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_18175d1e79756d44fa19958e26514b28e28c73c7.jar" />
+    </item>
+
+</items>
