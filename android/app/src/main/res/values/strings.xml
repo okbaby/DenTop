@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DenTop</string>
+    <string name="facebook_app_id">300506413801742</string>
+    <string name="fb_login_protocol_scheme">fb300506413801742</string>
+</resources>
