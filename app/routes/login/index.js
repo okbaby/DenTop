@@ -126,7 +126,7 @@ class Login extends Component {
                     style       = {style.backgroundImage}
                     source      = {images.backgrounds.tooth}
                 />
-                <ActivityIndicator size={75}/>
+                <ActivityIndicator/>
                 <Text>
                     Carregando suas informações
                 </Text>

@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "echarts": "^3.8.5",
+    "fb-watchman": "^2.0.0",
+    "firebase": "^4.6.2",
     "native-echarts": "^0.3.0",
     "react": "16.0.0",
     "react-native": "0.50.3",
